@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.background {
+  background: url(/images/leaves.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.background p {
+  font-size: 5rem;
+  color: hsl(0deg, 0%, 99%);
+  background-color: hsla(0deg, 0%, 0%, 0.5);
+  text-align: center;
+  align-items: center;
+  font-family: Norse, sans-serif;
+  padding: 0.5rem 0 0.8rem 0;
+  position: relative;
+  top: 30%;
+}
+.background p img {
+  width: 5rem;
+  height: 6rem;
+  position: relative;
+  top: 15px;
+}
+
+.login-cta {
+  background: #F9FAFB;
+}
+.login-cta .speech {
+  margin: 3rem auto 2rem 2rem;
+}
+.login-cta .speech p {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.login-cta .speech p .want {
+  display: block;
+  margin-top: 1rem;
+}
+.login-cta form .shadow-form {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px 1px #aaaaaa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 2rem;
+  font-family: Poppins, sans-serif;
+  margin: 0 auto;
+}
+.login-cta form .shadow-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.login-cta form .shadow-form .form-group {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.login-cta form .shadow-form .form-group input {
+  width: 90%;
+  max-width: 90%;
+  padding: 5px;
+  border: 1px solid #aaaaaa;
+  border-radius: 0.3rem;
+  outline-color: #2251D5;
+  background: transparent;
+  font-family: Poppins, sans-serif;
+  color: black;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.login-cta form .shadow-form .form-group input:focus {
+  box-shadow: 1px 2px 5px 1px #aaaaaa;
+}
+.login-cta form .shadow-form .form-group input:hover {
+  box-shadow: 1px 2px 5px 1px #aaaaaa;
+}
+.login-cta form .conclusion {
+  font-family: Poppins, sans-serif;
+  padding-bottom: 6rem;
+}
+.login-cta form .conclusion input {
+  border: none;
+  border-color: #596D48;
+  background: #596D48;
+  padding: 1rem 2rem;
+  margin: 2rem auto 2rem 2rem;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: Poppins, sans-serif;
+  cursor: pointer;
+}
+.login-cta form .conclusion input:hover {
+  color: #596D48;
+  background: #ffffff;
+  border: 1px solid #FFFFFF;
+  box-shadow: 1px 2px 10px 1px #aaaaaa;
+}
+.login-cta form .conclusion p {
+  margin-left: 2rem;
+  font-size: 18px;
+}
+.login-cta form .conclusion p a {
+  color: #596D48;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.login-cta form .conclusion p a:hover {
+  color: #aaaaaa;
+}
+.login-cta form .conclusion p a:active {
+  color: #aaaaaa;
+}
+
+@media only screen and (min-width: 720px) {
+  .background {
+    height: 70vh;
+  }
+  .background p {
+    top: 40%;
+  }
+  form .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 912px) {
+  .container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .background {
+    height: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
